@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  margin: 0;
+  padding: 0; 
+  overflow: hidden;
+  display: block;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  margin:0;
+  // color: #444;
+  font: 300 11px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  user-select: none;
+  // background-color: linear-gradient(to bottom right, #50a3a2 0%, #2eca7f 100%);
+  min-height: 100vh;
+  
+
+      background-image: linear-gradient(to right bottom, rgb(80, 163, 162) 0%, rgb(46, 202, 127) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
