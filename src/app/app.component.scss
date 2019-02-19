@@ -21,9 +21,47 @@
   box-sizing: border-box;
 }
 
+.person-content{
+  padding-top: 80px;
+}
+
+.title{
+  color: rgb(23, 23, 23);
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center
+}
+
+.subtitle{
+  font-size: 14px;
+  text-align: center;
+  color: #2eca7f;
+}
+
+.social{
+  text-align: center;
+}
+
+.links{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 50%;
+    font-size: 14px;
+  }
+}
+
 .person{
   position: absolute;
-  left: 100px;
+  left: 80px;
   top: 150px;
   width: calc(45vw - 100px);
   height: calc(100vh - 250px);
@@ -156,3 +194,12 @@
       color: #08fdd8;
     }
   }
+
+.con{
+  position: absolute;
+  background-color: white;
+  left: calc(45vw - 20px);
+  top: 170px;
+  height: calc(100vh - 290px);
+  width: 55vw;
+}

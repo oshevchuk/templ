@@ -12,7 +12,7 @@ body{
   user-select: none;
   // background-color: linear-gradient(to bottom right, #50a3a2 0%, #2eca7f 100%);
   min-height: 100vh;
-  
+
 
       background-image: linear-gradient(to right bottom, rgb(80, 163, 162) 0%, rgb(46, 202, 127) 100%);
     background-position-x: initial;
@@ -24,4 +24,6 @@ body{
     background-origin: initial;
     background-clip: initial;
     background-color: initial;
+
+    font-family: 'Roboto';
 }
